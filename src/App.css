@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    background-color: rgb(241, 198, 205);
+}
+
+.key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 300px;
+    margin: 20px auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto 40vw;
+    border-radius: 10px;
+    background-color: rgb(211, 107, 107);
+    font-weight: 900;
+  }
+
+
+  .key div {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .key div:hover{
+    background-color: #e6d2d2;
+  
+  }
+
+  
+  .key div:nth-child(1) {
+    grid-column: span 2;
+    background-color: rgb(226, 66, 93);  }
+
+  .key div:nth-child(2) {
+
+    background-color: rgb(226, 66, 93);  }
+  
+  .key div:nth-child(3) {
+
+    background-color: rgb(226, 66, 93);  }
+  
+  .key div:nth-child(7) {
+
+    background-color: rgb(226, 66, 93);  }
+  
+  .key div:nth-child(11) {
+
+    background-color: rgb(226, 66, 93);  }
+  
+  .key div:nth-child(15) {
+
+    background-color: rgb(226, 66, 93);  }
+  
+    
+  .key div:nth-child(16) {
+
+    background-color: rgb(255, 142, 161);
+  }
+
+  .key div:nth-child(18) {
+    grid-column: span 2;
+    background-color: rgb(226, 66, 93);
+  } 
+
+  .display{
+    height: 60px;
+    width: 200px;
+    text-align: end;
+    background-color: white;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-right:20px ;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
